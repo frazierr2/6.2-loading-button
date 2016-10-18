@@ -1,0 +1,38 @@
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/'; // Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  // background-color: #141F3D;
+  background-image: url('https://wallpaperscraft.com/image/board_black_line_texture_background_wood_55220_602x339.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#like-button {
+  width: 30%;
+  height: 200px;
+  background-image: url('http://hdwallpaperia.com/wp-content/uploads/2013/11/Desktop-Backgrounds-Computer.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #141F3D;
+  text-align: center;
+  border-radius: 10px;
+  padding-top: 20px;
+  margin: 100px auto 0;
+
+  .like {
+    display: inline-block;
+    font-size: 50px;
+  }
+}
