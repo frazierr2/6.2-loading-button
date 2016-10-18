@@ -36,3 +36,20 @@ body {
     font-size: 50px;
   }
 }
+
+.fetched-data {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.blog-post {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+
+  ul {
+    list-style: none;
+  }
+}

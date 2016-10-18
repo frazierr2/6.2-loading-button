@@ -18,6 +18,11 @@ loadingFetch.on('sync', function() {
   }, 1000);
 });
 
+$('.blog-post').append('<ul></ul>');
+loadingFetch.on("add", function(data) {
+  $('.blog-post ul').append('<li>' + data.get('title') + '</li>');
+});
+
 $('#loading-button').on('click', function() {
   loadingFetch.fetch()
 
